@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { RootStyle } from "./styles";
 
 // ==============================================================
-interface Props extends PropsWithChildren, Settings {
+interface Props extends Settings {
   dotColor?: string;
   spaceBetween?: number;
   dotStyles?: SxProps<Theme>;
